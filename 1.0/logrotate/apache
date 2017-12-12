@@ -1,0 +1,10 @@
+/var/log/apache2/*.log {
+  weekly
+  size 10M
+  missingok
+  rotate 10
+  compress
+  delaycompress
+  notifempty
+  copytruncate
+}
